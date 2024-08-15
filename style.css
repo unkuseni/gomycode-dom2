@@ -1,0 +1,28 @@
+:root {
+
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+
+
+.container {
+
+}
+
+#color-box {
+  width: clamp(250px, 30vw, 450px);
+  height: clamp(250px, 30vw, 450px);
+  background-color: #fff;
+}
